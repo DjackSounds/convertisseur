@@ -1,0 +1,23 @@
+
+h1 {
+  text-align: center;
+  color : rgb(204, 191, 17);
+}
+td{
+  text-align: center;
+  border:1px solid rgb(215, 208, 143);
+  padding:5px;
+}
+
+table {
+  border:1px solid rgb(215, 208, 143);
+  border-collapse: collapse;
+
+}
+
+#toAmount {
+  background-color: rgb(204, 188, 146);
+}
+input[type="number"] {
+   width:95px;
+}

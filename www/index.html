@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+
+        <script type="text/javascript" src="js/code.js"></script>
+        <link rel="stylesheet" href="css/bootrstrap.css">
+        <link rel="stylesheet" href="css/code.css">
+
+    </head>
+      <body onload="convertCurrency()">
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Convert Currency</h1>
+      <table align="center">
+        <tr>
+          <td> <input type="number" id="fromAmount" value="1" onkeyup="convertCurrency()" onchange="convertCurrency()" size="10"> </td>
+          <td> <select id="from" onchange="convertCurrency()">
+            <option value="AUD">Australian Dollar (AUD)</option>
+            <option value="CAD">Canadian Dollar (CAD)</option>
+            <option value="EUR" selected>Euro (Eur)</option>
+            <option value="USD">US Dollars (USD)</option>
+            <option value="GBP">British Pound (GBP)</option>
+
+          </select> </td>
+        </tr>
+        <tr>
+          <td> <input type="text" id="toAmount" value="" size="10" disabled> </td>
+            <td>
+          <select id="to" name="" onchange="convertCurrency()">
+            <option value="AUD">Australian Dollar (AUD)</option>
+            <option value="CAD">Canadian Dollar (CAD)</option>
+            <option value="EUR">Euro (Eur)</option>
+            <option value="USD" selected>US Dollars (USD)</option>
+            <option value="GBP">British Pound (GBP)</option>
+          </select>
+            </td>
+          </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/popper.js"></script>
+
+    </body>
+</html>
