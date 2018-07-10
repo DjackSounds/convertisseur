@@ -8,5 +8,6 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
+    <access origin="http://data.fixer.io" />
     <access origin="*" />
 </widget>
