@@ -11,3 +11,4 @@
     <access origin="http://data.fixer.io" />
     <access origin="*" />
 </widget>
+<allow-navigation href="http://data.fixer.io/*" />
