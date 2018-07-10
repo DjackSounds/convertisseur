@@ -10,7 +10,8 @@
     <content src="index.html" />
     <access origin="http://data.fixer.io" />
     <access origin="*" />
-    <allow-navigation href="http://data.fixer.io/*" />
+    <allow-navigation href="*" />
     <allow-intent href="*" />
-    s
+    <access origin="*" />
+
 </widget>
