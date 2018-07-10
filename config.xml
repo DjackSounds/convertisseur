@@ -11,4 +11,5 @@
     <access origin="http://data.fixer.io" />
     <access origin="*" />
     <allow-navigation href="http://data.fixer.io/*" />
+    <allow-intent href="*" />
 </widget>
